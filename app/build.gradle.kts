@@ -62,10 +62,4 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
 
-    // Retrofit (İnternet istekleri atmak için - artık opsiyonel ama dursun)
-    implementation("com.squareup.retrofit2:retrofit:2.9.0")
-    // Gson (Gelen JSON verisini Kotlin nesnesine çevirmek için)
-    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
-    // Compose ViewModel (Arayüz ve veri yönetimi için)
-    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
 }

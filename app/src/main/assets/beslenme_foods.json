@@ -1,0 +1,288 @@
+{
+ "_provenance": "Kaggle trolukovich Nutritional values for common foods (USDA tabanli, gercek); 100 g basina",
+ "_note": "Oneri kural-tabanlidir (Mifflin-St Jeor + klinik makro); ML degildir.",
+ "kategoriler": {
+  "Protein Kaynaklari": [
+   {
+    "ad": "Tavuk gogsu (pismis)",
+    "orijinal": "Chicken, roasted, cooked, meat only, breast, broilers or fry",
+    "kalori": 165,
+    "protein": 31.0,
+    "karb": 0.0,
+    "yag": 3.6
+   },
+   {
+    "ad": "Yumurta (haslanmis)",
+    "orijinal": "Egg, hard-boiled, cooked, whole",
+    "kalori": 155,
+    "protein": 12.6,
+    "karb": 1.1,
+    "yag": 11.0
+   },
+   {
+    "ad": "Yunan yogurdu (yagsiz)",
+    "orijinal": "Yogurt, nonfat, plain, Greek",
+    "kalori": 59,
+    "protein": 10.2,
+    "karb": 3.6,
+    "yag": 0.4
+   },
+   {
+    "ad": "Ton baligi (suda)",
+    "orijinal": "Fish, drained solids, canned in water, light, tuna",
+    "kalori": 86,
+    "protein": 19.4,
+    "karb": 0.0,
+    "yag": 1.0
+   },
+   {
+    "ad": "Somon (pismis)",
+    "orijinal": "Fish, dry heat, cooked, pink, salmon",
+    "kalori": 153,
+    "protein": 24.6,
+    "karb": 0.0,
+    "yag": 5.3
+   },
+   {
+    "ad": "Mercimek (pismis)",
+    "orijinal": "Lentils, with salt, boiled, cooked, mature seeds",
+    "kalori": 114,
+    "protein": 9.0,
+    "karb": 19.5,
+    "yag": 0.4
+   },
+   {
+    "ad": "Nohut (pismis)",
+    "orijinal": "Chickpeas (garbanzo beans, bengal gram), with salt, boiled, ",
+    "kalori": 164,
+    "protein": 8.9,
+    "karb": 27.4,
+    "yag": 2.6
+   },
+   {
+    "ad": "Tofu",
+    "orijinal": "Tofu, prepared with calcium sulfate, regular, raw",
+    "kalori": 76,
+    "protein": 8.1,
+    "karb": 1.9,
+    "yag": 4.8
+   },
+   {
+    "ad": "Hindi gogsu (pismis)",
+    "orijinal": "Turkey, roasted, meat only, from whole bird, breast",
+    "kalori": 147,
+    "protein": 30.1,
+    "karb": 0.0,
+    "yag": 2.1
+   }
+  ],
+  "Kompleks Karbonhidrat": [
+   {
+    "ad": "Yulaf (pismis)",
+    "orijinal": "Cereals, without salt, cooked with water (includes boiling a",
+    "kalori": 71,
+    "protein": 2.5,
+    "karb": 12.0,
+    "yag": 1.5
+   },
+   {
+    "ad": "Esmer pirinc (pismis)",
+    "orijinal": "Rice, cooked, long-grain, brown",
+    "kalori": 123,
+    "protein": 2.7,
+    "karb": 25.6,
+    "yag": 1.0
+   },
+   {
+    "ad": "Kinoa (pismis)",
+    "orijinal": "Quinoa, cooked",
+    "kalori": 120,
+    "protein": 4.4,
+    "karb": 21.3,
+    "yag": 1.9
+   },
+   {
+    "ad": "Tam bugday ekmegi",
+    "orijinal": "Bread, whole-wheat, pita",
+    "kalori": 262,
+    "protein": 9.8,
+    "karb": 55.9,
+    "yag": 1.7
+   },
+   {
+    "ad": "Tatli patates (firin)",
+    "orijinal": "Sweet potato, with salt, baked, cooked, frozen",
+    "kalori": 100,
+    "protein": 1.7,
+    "karb": 23.4,
+    "yag": 0.1
+   },
+   {
+    "ad": "Tam tahil makarna",
+    "orijinal": "Pasta, cooked, whole-wheat",
+    "kalori": 149,
+    "protein": 6.0,
+    "karb": 30.1,
+    "yag": 1.7
+   }
+  ],
+  "Sebzeler (Dusuk Kalori)": [
+   {
+    "ad": "Brokoli (pismis)",
+    "orijinal": "Broccoli, with salt, drained, boiled, cooked",
+    "kalori": 35,
+    "protein": 2.4,
+    "karb": 7.2,
+    "yag": 0.4
+   },
+   {
+    "ad": "Ispanak (pismis)",
+    "orijinal": "Spinach, with salt, drained, boiled, cooked",
+    "kalori": 23,
+    "protein": 3.0,
+    "karb": 3.8,
+    "yag": 0.3
+   },
+   {
+    "ad": "Domates",
+    "orijinal": "Tomatoes, year round average, raw, ripe, red",
+    "kalori": 18,
+    "protein": 0.9,
+    "karb": 3.9,
+    "yag": 0.2
+   },
+   {
+    "ad": "Havuc (cig)",
+    "orijinal": "Carrots, raw",
+    "kalori": 41,
+    "protein": 0.9,
+    "karb": 9.6,
+    "yag": 0.2
+   },
+   {
+    "ad": "Yesil biber",
+    "orijinal": "Peppers, raw, green, sweet",
+    "kalori": 20,
+    "protein": 0.9,
+    "karb": 4.6,
+    "yag": 0.2
+   },
+   {
+    "ad": "Karnabahar (cig)",
+    "orijinal": "Cauliflower, raw",
+    "kalori": 25,
+    "protein": 1.9,
+    "karb": 5.0,
+    "yag": 0.3
+   },
+   {
+    "ad": "Salatalik",
+    "orijinal": "Cucumber, raw, peeled",
+    "kalori": 12,
+    "protein": 0.6,
+    "karb": 2.2,
+    "yag": 0.2
+   }
+  ],
+  "Meyveler": [
+   {
+    "ad": "Elma (kabuklu)",
+    "orijinal": "Apples, with skin, raw",
+    "kalori": 52,
+    "protein": 0.3,
+    "karb": 13.8,
+    "yag": 0.2
+   },
+   {
+    "ad": "Muz",
+    "orijinal": "Bananas, raw",
+    "kalori": 89,
+    "protein": 1.1,
+    "karb": 22.8,
+    "yag": 0.3
+   },
+   {
+    "ad": "Portakal",
+    "orijinal": "Oranges, all commercial varieties, raw",
+    "kalori": 47,
+    "protein": 0.9,
+    "karb": 11.8,
+    "yag": 0.1
+   },
+   {
+    "ad": "Cilek",
+    "orijinal": "Strawberries, raw",
+    "kalori": 32,
+    "protein": 0.7,
+    "karb": 7.7,
+    "yag": 0.3
+   },
+   {
+    "ad": "Yaban mersini",
+    "orijinal": "Blueberries, raw",
+    "kalori": 57,
+    "protein": 0.7,
+    "karb": 14.5,
+    "yag": 0.3
+   },
+   {
+    "ad": "Uzum",
+    "orijinal": "Grapes, raw, red or green (European type, such as Thompson s",
+    "kalori": 69,
+    "protein": 0.7,
+    "karb": 18.1,
+    "yag": 0.2
+   }
+  ],
+  "Saglikli Yaglar": [
+   {
+    "ad": "Zeytinyagi",
+    "orijinal": "Oil, salad or cooking, olive",
+    "kalori": 884,
+    "protein": 0.0,
+    "karb": 0.0,
+    "yag": 100.0
+   },
+   {
+    "ad": "Avokado",
+    "orijinal": "Avocados, all commercial varieties, raw",
+    "kalori": 160,
+    "protein": 2.0,
+    "karb": 8.5,
+    "yag": 15.0
+   },
+   {
+    "ad": "Badem",
+    "orijinal": "Nuts, almonds",
+    "kalori": 579,
+    "protein": 21.1,
+    "karb": 21.6,
+    "yag": 50.0
+   },
+   {
+    "ad": "Ceviz",
+    "orijinal": "Nuts, english, walnuts",
+    "kalori": 654,
+    "protein": 15.2,
+    "karb": 13.7,
+    "yag": 65.0
+   },
+   {
+    "ad": "Fistik ezmesi",
+    "orijinal": "USDA Commodity, smooth, Peanut Butter",
+    "kalori": 588,
+    "protein": 21.9,
+    "karb": 24.0,
+    "yag": 50.0
+   },
+   {
+    "ad": "Ay cekirdegi",
+    "orijinal": "Seeds, dried, sunflower seed kernels",
+    "kalori": 584,
+    "protein": 20.8,
+    "karb": 20.0,
+    "yag": 51.0
+   }
+  ]
+ }
+}

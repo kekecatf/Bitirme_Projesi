@@ -1,0 +1,344 @@
+{
+ "_provenance": "Kaggle niharika41298 Gym Exercise Dataset / megaGym (gercek egzersiz katalogu)",
+ "_note": "Oneri kural-tabanlidir (hedef + seviye + ekipman); ML degildir.",
+ "kaslar": {
+  "Göğüs": [
+   {
+    "ad": "Bodyweight Flyes",
+    "ekipman": "EZ bar",
+    "seviye": "Başlangıç"
+   },
+   {
+    "ad": "Wide-Grip Decline Barbell Bench Press",
+    "ekipman": "Halter",
+    "seviye": "Başlangıç"
+   },
+   {
+    "ad": "Wide-grip bench press",
+    "ekipman": "Halter",
+    "seviye": "Başlangıç"
+   },
+   {
+    "ad": "Pushups",
+    "ekipman": "Vücut ağırlığı",
+    "seviye": "Orta"
+   },
+   {
+    "ad": "Dumbbell Bench Press",
+    "ekipman": "Dambıl",
+    "seviye": "Orta"
+   },
+   {
+    "ad": "Low-cable cross-over",
+    "ekipman": "Kablo",
+    "seviye": "Orta"
+   }
+  ],
+  "Sırt": [
+   {
+    "ad": "Barbell deficit deadlift",
+    "ekipman": "Halter",
+    "seviye": "Başlangıç"
+   },
+   {
+    "ad": "Axle Deadlift",
+    "ekipman": "Diğer",
+    "seviye": "Başlangıç"
+   },
+   {
+    "ad": "Rocky Pull-Ups/Pulldowns",
+    "ekipman": "Diğer",
+    "seviye": "Başlangıç"
+   },
+   {
+    "ad": "T-Bar Row with Handle",
+    "ekipman": "Diğer",
+    "seviye": "Orta"
+   },
+   {
+    "ad": "Weighted pull-up",
+    "ekipman": "Diğer",
+    "seviye": "Orta"
+   },
+   {
+    "ad": "Atlas Stones",
+    "ekipman": "Diğer",
+    "seviye": "Orta"
+   },
+   {
+    "ad": "Assisted Single-Arm Pull-Up",
+    "ekipman": "Diğer",
+    "seviye": "İleri"
+   },
+   {
+    "ad": "Assisted Single-Arm Chin-Up",
+    "ekipman": "Diğer",
+    "seviye": "İleri"
+   }
+  ],
+  "Omuz": [
+   {
+    "ad": "Lying Face Down Plate Neck Resistance",
+    "ekipman": "Diğer",
+    "seviye": "Başlangıç"
+   },
+   {
+    "ad": "Power Partials",
+    "ekipman": "Dambıl",
+    "seviye": "Başlangıç"
+   },
+   {
+    "ad": "Snatch-Grip Behind-The-Neck Overhead Press",
+    "ekipman": "Halter",
+    "seviye": "Başlangıç"
+   },
+   {
+    "ad": "Dumbbell front raise to lateral raise",
+    "ekipman": "Dambıl",
+    "seviye": "Orta"
+   },
+   {
+    "ad": "Single-arm palm-in dumbbell shoulder press",
+    "ekipman": "Dambıl",
+    "seviye": "Orta"
+   },
+   {
+    "ad": "Clean and press",
+    "ekipman": "Halter",
+    "seviye": "Orta"
+   }
+  ],
+  "Biceps/Ön Kol": [
+   {
+    "ad": "Rickshaw Carry",
+    "ekipman": "Diğer",
+    "seviye": "Başlangıç"
+   },
+   {
+    "ad": "Incline Hammer Curls",
+    "ekipman": "Dambıl",
+    "seviye": "Başlangıç"
+   },
+   {
+    "ad": "Standing behind-the-back wrist curl",
+    "ekipman": "Halter",
+    "seviye": "Başlangıç"
+   },
+   {
+    "ad": "Palms-down wrist curl over bench",
+    "ekipman": "Halter",
+    "seviye": "Orta"
+   },
+   {
+    "ad": "Palms-up wrist curl over bench",
+    "ekipman": "Halter",
+    "seviye": "Orta"
+   },
+   {
+    "ad": "Dumbbell farmer's walk",
+    "ekipman": "Diğer",
+    "seviye": "Orta"
+   }
+  ],
+  "Triceps": [
+   {
+    "ad": "Decline Close-Grip Bench To Skull Crusher",
+    "ekipman": "Halter",
+    "seviye": "Başlangıç"
+   },
+   {
+    "ad": "Decline Dumbbell Triceps Extension",
+    "ekipman": "Dambıl",
+    "seviye": "Başlangıç"
+   },
+   {
+    "ad": "One Arm Pronated Dumbbell Triceps Extension",
+    "ekipman": "Dambıl",
+    "seviye": "Başlangıç"
+   },
+   {
+    "ad": "Triceps dip",
+    "ekipman": "Vücut ağırlığı",
+    "seviye": "Orta"
+   },
+   {
+    "ad": "Decline EZ-bar skullcrusher",
+    "ekipman": "EZ bar",
+    "seviye": "Orta"
+   },
+   {
+    "ad": "Dumbbell floor press",
+    "ekipman": "Dambıl",
+    "seviye": "Orta"
+   }
+  ],
+  "Bacak (Ön)": [
+   {
+    "ad": "Clean from Blocks",
+    "ekipman": "Halter",
+    "seviye": "Başlangıç"
+   },
+   {
+    "ad": "Hang Clean",
+    "ekipman": "Halter",
+    "seviye": "Başlangıç"
+   },
+   {
+    "ad": "Front Squats With Two Kettlebells",
+    "ekipman": "Kettlebell",
+    "seviye": "Başlangıç"
+   },
+   {
+    "ad": "Single-Leg Press",
+    "ekipman": "Makine",
+    "seviye": "Orta"
+   },
+   {
+    "ad": "Barbell Full Squat",
+    "ekipman": "Halter",
+    "seviye": "Orta"
+   },
+   {
+    "ad": "Tire flip",
+    "ekipman": "Diğer",
+    "seviye": "Orta"
+   },
+   {
+    "ad": "Power snatch-",
+    "ekipman": "Halter",
+    "seviye": "İleri"
+   },
+   {
+    "ad": "Narrow-stance squat",
+    "ekipman": "Halter",
+    "seviye": "İleri"
+   },
+   {
+    "ad": "Barbell forward lunge",
+    "ekipman": "Halter",
+    "seviye": "İleri"
+   }
+  ],
+  "Bacak/Kalça": [
+   {
+    "ad": "Clean Deadlift",
+    "ekipman": "Halter",
+    "seviye": "Başlangıç"
+   },
+   {
+    "ad": "Romanian Deadlift With Dumbbells",
+    "ekipman": "Dambıl",
+    "seviye": "Başlangıç"
+   },
+   {
+    "ad": "Sumo deadlift",
+    "ekipman": "Halter",
+    "seviye": "Başlangıç"
+   },
+   {
+    "ad": "Barbell Deadlift",
+    "ekipman": "Halter",
+    "seviye": "Orta"
+   },
+   {
+    "ad": "Barbell glute bridge",
+    "ekipman": "Halter",
+    "seviye": "Orta"
+   },
+   {
+    "ad": "Smith Machine Calf Raise",
+    "ekipman": "Makine",
+    "seviye": "Orta"
+   }
+  ],
+  "Karın/Kor": [
+   {
+    "ad": "Dumbbell spell caster",
+    "ekipman": "Dambıl",
+    "seviye": "Başlangıç"
+   },
+   {
+    "ad": "Plate Twist",
+    "ekipman": "Diğer",
+    "seviye": "Başlangıç"
+   },
+   {
+    "ad": "Gorilla Chin/Crunch",
+    "ekipman": "Vücut ağırlığı",
+    "seviye": "Başlangıç"
+   },
+   {
+    "ad": "Landmine twist",
+    "ekipman": "Diğer",
+    "seviye": "Orta"
+   },
+   {
+    "ad": "Bottoms Up",
+    "ekipman": "Vücut ağırlığı",
+    "seviye": "Orta"
+   },
+   {
+    "ad": "Elbow plank",
+    "ekipman": "Vücut ağırlığı",
+    "seviye": "Orta"
+   },
+   {
+    "ad": "Dumbbell Get-Up Sit-Up",
+    "ekipman": "Dambıl",
+    "seviye": "İleri"
+   }
+  ]
+ },
+ "kardiyo": [
+  {
+   "ad": "Jumping rope",
+   "ekipman": "Vücut ağırlığı",
+   "seviye": "Orta"
+  },
+  {
+   "ad": "Stair climber",
+   "ekipman": "Makine",
+   "seviye": "Orta"
+  },
+  {
+   "ad": "Rower",
+   "ekipman": "Makine",
+   "seviye": "Orta"
+  },
+  {
+   "ad": "Bicycling",
+   "ekipman": "Diğer",
+   "seviye": "Orta"
+  },
+  {
+   "ad": "Stairmaster",
+   "ekipman": "Makine",
+   "seviye": "Orta"
+  },
+  {
+   "ad": "Elliptical trainer",
+   "ekipman": "Makine",
+   "seviye": "Orta"
+  },
+  {
+   "ad": "Burpee",
+   "ekipman": "Vücut ağırlığı",
+   "seviye": "Orta"
+  },
+  {
+   "ad": "Trail Running/Walking",
+   "ekipman": "Vücut ağırlığı",
+   "seviye": "Orta"
+  },
+  {
+   "ad": "Treadmill running",
+   "ekipman": "Makine",
+   "seviye": "Orta"
+  },
+  {
+   "ad": "Skating",
+   "ekipman": "Diğer",
+   "seviye": "Başlangıç"
+  }
+ ]
+}
